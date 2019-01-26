@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #ffffff;
+}
+header{
+    background: #01767ea6;
+    padding: 30px;
+    text-align: center;
+}
+
+#logo,nav{
+    padding: 10px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.branco{
+    color:rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited{
+    color: #6e6e6e;
+    padding: 8px 12px;
+}
+
+a:hover{
+    color: #383838;
+    background: rgb(255, 255, 255);
+}
+
+section{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+#post{
+    width: 660px;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #01767ea6;
+
+}
+
+.amarelo{
+    color: #ffffff;
+}
+
+img{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+}
+
+.texto1{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 14px;
+}
+.texto2{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 14px;
+}
+.texto3{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 14px;
+}
+.texto4{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 14px;
+}
+.link-texto{
+    color: #000000;
+}
+
+
+.dataPost{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    padding: 10px;
+}
+
+#sidebar{
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h3{
+    color:#ffffff;
+    background: #01767ea6;
+    padding: 5px;
+}
+
+.texto-lateral{
+    font-style: 0.8em;
+    padding: 5px;
+}
+
+.link-lateral{
+    color: #929292;
+}
+
+
+footer{
+    background: #01767ea6;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
